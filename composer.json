@@ -1,0 +1,21 @@
+{
+    "name": "neimmsmoa/php-websocket-server",
+    "description": "It's a simple WebSocket chat server.",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+      "ext-sockets": "*",
+      "ext-mbstring": "*",
+        "ext-posix": "*",
+      "ext-json": "*",
+      "miladrahimi/php-jwt": "2.*",
+      "ext-pcntl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "Src/"
+        }
+    }
+
+}
